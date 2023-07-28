@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  background-color: #250c0c;
+}
+
 .game-board {
   width: 100%;
   height: 500px;
@@ -12,11 +16,6 @@
   position: relative;
   overflow: hidden;
   background: linear-gradient(#87CEEB, #E0F6FF);
-}
-html {
-  background-image: url('/images/back.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .pipe {
